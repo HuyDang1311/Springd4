@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<!-- basic 
+<tiles-definitions>
+  <definition name="basic.template" template="/WEB-INF/templates/basic/template.jsp">
+    <put-attribute name="header" value="/WEB-INF/templates/basic/header.jsp" />
+    <put-attribute name="body" value="" />
+    <put-attribute name="footer" value="/WEB-INF/templates/basic/footer.jsp" />
+  </definition>
+  
+  <definition name="basic.basic.index" extends="basic.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/basic/index.jsp" />
+  </definition>
+  <definition name="basic.basic.cat" extends="basic.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/basic/cat.jsp" />
+  </definition>
+  <definition name="basic.basic.user" extends="basic.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/basic/user.jsp" />
+  </definition>
+</tiles-definitions>
+-->     
+<!-- anews -->   
+<tiles-definitions>
+  <definition name="anews.template" template="/WEB-INF/templates/anews/template.jsp">
+    <put-attribute name="header" value="/WEB-INF/templates/anews/header.jsp" />
+    <put-attribute name="body" value="" />
+    <put-attribute name="footer" value="/WEB-INF/templates/anews/footer.jsp" />
+  </definition>
+  
+  <definition name="anews.anews.index" extends="anews.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/anew/index.jsp" />
+  </definition>
+  <definition name="anews.anews.detail" extends="anews.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/anew/detail.jsp" />
+  </definition>
+  <definition name="anews.anews.add" extends="anews.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/anew/add.jsp" />
+  </definition>
+  <definition name="anews.anews.cat" extends="anews.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/anew/cat.jsp" />
+  </definition>
+  
+  <definition name="anews.template" template="/WEB-INF/templates/cnews/template.jsp">
+    <put-attribute name="header" value="/WEB-INF/templates/cnews/header.jsp" />
+    <put-attribute name="body" value="" />
+     <put-attribute name="sidebar" value="/WEB-INF/templates/cnews/sidebar.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/templates/cnews/footer.jsp" />
+  </definition>
+  
+  <definition name="anews.cnews.index" extends="anews.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/cnews/index.jsp" />
+  </definition>
+  <definition name="anews.cnews.cat" extends="anews.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/cnews/cat.jsp" />
+  </definition>
+  <definition name="anews.cnews.add" extends="anews.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/cnews/add.jsp" />
+  </definition>
+  <definition name="anews.cnews.detail" extends="anews.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/cnews/detail.jsp" />
+  </definition>
+</tiles-definitions>
